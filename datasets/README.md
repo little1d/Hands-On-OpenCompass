@@ -10,7 +10,6 @@ wget https://github.com/open-compass/opencompass/releases/download/0.2.2.rc1/Ope
 unzip OpenCompassData-core-20240207.zip
 ```
 
-
 源码中，数据集存在于 `config/datasets` 目录下
 
 ![](../images/figure1.png)
@@ -37,6 +36,5 @@ afqmc_datasets = [
 
 ### 自定义数据集
 
-### 数据分片
-
 ### 如何支持新数据集
+

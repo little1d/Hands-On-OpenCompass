@@ -2,8 +2,8 @@
 OpenCompass 中支持以下三种方式的模型评测 
 
 #### 基于 HuggingFace 的模型
-直接从 Huggingface 的 AutoModel.from_pretrained 和 AutoModelForCausalLM.from_pretrained 接口构建评测模型。如果需要评测的模型符合 HuggingFace 模型通常的生成接口， 则不需要编写代码，直接在配置文件中指定相关配置即可。
-对于 HuggingFace的封装，源代码可以参考：[opencompass/models/huggingface.py](https://github.com/open-compass/opencompass/blob/main/opencompass/models/huggingface.py)
+直接从 `Huggingface` 的 `AutoModel.from_pretrained` 和 `AutoModelForCausalLM.from_pretrained` 接口构建评测模型。如果需要评测的模型符合 `HuggingFace` 模型通常的生成接口， 则不需要编写代码，直接在配置文件中指定相关配置即可。
+对于 `HuggingFace` 的封装，源代码可以参考：[opencompass/models/huggingface.py](https://github.com/open-compass/opencompass/blob/main/opencompass/models/huggingface.py)
 
 这里用 `baichuan2_13b_chat` 作为理解
 
