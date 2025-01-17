@@ -85,7 +85,7 @@ outputs/default/
     # 从注册表中获取 resnet_class
     resnet_cls = MODELS.get('ResNet')
   ```
-* build：根据配置字典(cfg)在注册表中构建一实例
+* build：根据配置字典(cfg)在注册表中构建一个实例
   ```python
     from mmengine import Registry
     MODELS = Registry('models')

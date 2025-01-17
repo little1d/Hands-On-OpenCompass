@@ -140,3 +140,5 @@ class MyModel(BaseModel):
 ```
 
 > 详细内容请参考：https://opencompass.readthedocs.io/zh-cn/latest/advanced_guides/new_model.html
+>
+> 具体实践案例可以参考 [../code/api_model](../code/api_model)
