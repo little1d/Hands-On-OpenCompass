@@ -141,7 +141,7 @@ class MyModelAPI(BaseAPIModel):
     * 接受一个输入列表，可以是字符串或 `PromptList` ，并生成相应的输出
     * 使用 `ThreadPoolExecutor` 并发处理多个输入，调用 `_generate` 方法生成结果
     * 对 API 调用过程中可能出现的错误进行处理，如网络错误、敏感内容、提示过长等
-### 二、 将 mymodel_api.py 导出为 Python package
+### 二、 将 `mymodel_api.py` 导出为 `Python package`
 在 `opencompass/models/__init__.py` 中加入下一行代码
 
 ```python
@@ -211,3 +211,8 @@ python run.py configs/api_examples/eval_api_mymodel.py
 ```bash
 srun --gres=gpu:4 --partition=AI4Phys python run.py configs/api_examples/eval_api_mymodel.py
 ```
+
+![](../../images/figure11.png)
+ 
+可能是资源不够，我是在 cpu 上跑的，作业被集群 kill 掉了 
+![](../../images/figure12.png)
